@@ -268,7 +268,7 @@ var categoriesListResponse = {
   data: [
     {
       cat_name: "Men",
-      cat_id: "cat001",
+      cat_id: "0",
       cat_image: "",
       cat_color: 0xff667eea,
     },
@@ -324,7 +324,7 @@ var productsByCatIdResponse = {
     {
       prod_name: "shafqat",
       prod_id: "12",
-      prod_image: "link.image.jpg",
+      prod_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RyWhvx367fi7rznK4ZMxIEUeC6oSEEfY0g&usqp=CAU",
       prod_images: [
         {
           imgurl: "",
@@ -360,7 +360,7 @@ var productsByCatIdResponse = {
     {
       prod_name: "Usama",
       prod_id: "17",
-      prod_image: "link.image.jpg",
+      prod_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs3OFbrtekZgDigWy57kpKcG58xQQvuL4LQA&usqp=CAU",
       prod_images: [
         {
           imgurl: "",
@@ -396,12 +396,105 @@ var productsByCatIdResponse = {
     {
       prod_name: "asad",
       prod_id: "19",
-      prod_image: "link.image.jpg",
+      prod_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv_QDJsN1x7Ek3rcFiU54cP5orYm4m7gn8lQ&usqp=CAU",
       prod_images: [
         {
           imgurl: "",
           img_id: "309",
         },
+      ],
+      prod_description:
+        "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.",
+      prod_rating: "3.5",
+      prod_rating_comment: "Good",
+      prod_original_price: "22",
+      prod_discounted_price: "10",
+      prod_sale_price: "19",
+      prod_reviews_count: "9",
+      prod_category_name: "shirts",
+      prod_category_id: "4",
+      prod_quantity: "1",
+      prod_selected_color: null,
+      prod_selected_size: null,
+      prod_sizes: [
+        {
+          prd_size: "19",
+          prd_size_id: "17",
+        },
+      ],
+      prod_colors: [
+        {
+          clr_id: "22",
+          clr: "#000488",
+        },
+      ],
+    },
+    {
+      prod_name: "asad",
+      prod_id: "19",
+      prod_image:   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVwCwgAWgy2CRwGjJ77y22-Fw1iFUuoG3w-g&usqp=CAU",
+      prod_images: [
+        {
+          imgurl: "",
+          img_id: "309",
+        },
+      ],
+      prod_description:
+        "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.",
+      prod_rating: "3.5",
+      prod_rating_comment: "Good",
+      prod_original_price: "22",
+      prod_discounted_price: "10",
+      prod_sale_price: "19",
+      prod_reviews_count: "9",
+      prod_category_name: "shirts",
+      prod_category_id: "4",
+      prod_quantity: "1",
+      prod_selected_color: null,
+      prod_selected_size: null,
+      prod_sizes: [
+        {
+          prd_size: "19",
+          prd_size_id: "17",
+        },
+      ],
+      prod_colors: [
+        {
+          clr_id: "22",
+          clr: "#000488",
+        },
+      ],
+    },
+    {
+      prod_name: "asad",
+      prod_id: "19",
+      prod_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlIbx0Acqi0nkD2JDw9dR6wfk6g1-T19ujBg&usqp=CAU",
+      prod_images: [
+        {
+          imgurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyGeOoBnCa3dWQl4m5aGBxUuw7SrEtU3Z0eg&usqp=CAU",
+          img_id: "309",
+        },
+        {
+          imgurl: "https://i.picsum.photos/id/1027/2848/4272.jpg?hmac=EAR-f6uEqI1iZJjB6-NzoZTnmaX0oI0th3z8Y78UpKM",
+          img_id: "309",
+        },
+        {
+          imgurl: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRhEhNM4lKLpJG1DqPVUzs112rFp6nVaR3Q&usqp=CAU",
+          img_id: "309",
+        },
+        {
+          imgurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQb2XWRmu8iQ4vYf0QQjHsYbQjLugWsSlMg&usqp=CAU",
+          img_id: "309",
+        },
+        {
+          imgurl: "https://picsum.photos/id/64/4326/2884",
+          img_id: "309",
+        },
+        {
+          imgurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCNfRRFbuCFWiT7WHt2-ri5r_lKED2VfbEIw&usqp=CAU",
+          img_id: "309",
+        },
+
       ],
       prod_description:
         "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.",
@@ -438,7 +531,7 @@ var productResponse = {
   data: {
     prod_name: "shafqat",
     prod_id: "12",
-    prod_image: "link.image.jpg",
+    prod_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV6J70jH-uCnQtR6cEZz_qQT9z2bGKGJaFXg&usqp=CAU",
     prod_images: [
       {
         imgurl: "",
