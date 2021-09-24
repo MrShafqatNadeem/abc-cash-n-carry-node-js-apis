@@ -233,6 +233,14 @@ app.post("/getAllOrders", (req, res) => {
 
 });
 
+
+app.get("/", (req, res) => {
+
+    res.status(200).send("Hello there ! :)");
+
+});
+
+
 app.listen(process.env.port ||  5000, () => {
   console.log("hi there ");
 });
