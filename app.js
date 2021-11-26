@@ -170,13 +170,13 @@ app.get("/getProductsByCatId", (req, res) => {
     res.status(200).send(productsByCatIdResponse1);
     }
     else if (req.query.id == 2){
-      res.status(200).send(productsByCatIdResponse2);
+      res.status(200).send(productsByCatIdResponse1);
     }
     else if(req.query.id == 3){
-      res.status(200).send(productsByCatIdResponse3);
+      res.status(200).send(productsByCatIdResponse1);
     }
     else {
-      res.status(200).send(productsByCatIdResponse3);
+      res.status(200).send(productsByCatIdResponse1);
     }
   }
     else {
