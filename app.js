@@ -174,7 +174,11 @@ app.get("/getProductsByCatId", (req, res) => {
     }
     else if(req.query.id == 3){
       res.status(200).send(productsByCatIdResponse3);
-    }}
+    }
+    else {
+      res.status(200).send(productsByCatIdResponse3);
+    }
+  }
     else {
       res.status(302).send(failedResponse);
     }
